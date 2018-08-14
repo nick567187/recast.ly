@@ -5,7 +5,7 @@ class App extends React.Component {
     this.state = {
       current: exampleVideoData[0],
       search: exampleVideoData,
-      searchBar: 'matt minwoo lee'
+      searchBar: 'nujabes'
     };
     this.debounce = _.debounce(() => searchYouTube({
       query: this.state.searchBar,
@@ -26,7 +26,8 @@ class App extends React.Component {
   onClickChangeVideo (event) { 
     this.setState({
       current: event
-    });   
+    });
+       
   }
 
   onSearchButtonClick () {

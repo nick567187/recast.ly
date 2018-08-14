@@ -1,8 +1,8 @@
 var VideoList = (props) => (
   <div className="video-list">    
     {props.videos.map(video => 
-       <VideoListEntry video={video} onClickChangeVideo={props.onClickChangeVideo}/>
-      )}
+      <VideoListEntry video={video} onClickChangeVideo={props.onClickChangeVideo}/>
+    )}
   </div>
   // <div><h5><em>videoListEntry</em> view goes here</h5></div>
   // this.props.length 
